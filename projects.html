@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Haggai Davis, III, PhD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <h1>Haggai Davis, III, PhD</h1>
+      <p class="tagline">Transportation Scientist interested in Autonomy and Electrification</p>
+      <nav class="header-links">
+        <a href="mailto:Haggai3@hagdav.com">Email</a>
+        <a href="https://www.linkedin.com/in/haggai-davis-iii-phd-15a452110/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/HaggaiDavis3" target="_blank">GitHub</a>
+        <a href="davis_dissertation.pdf" target="_blank">Dissertation</a>
+      </nav>
+    </div>
+    <nav class="page-nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="media.html">Media</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Euchre Strategy Master</h3>
+          <div class="project-links">
+            <a href="https://euchrestrategy.up.railway.app/" target="_blank" class="btn">Play Live</a>
+            <a href="https://github.com/HaggaiDavis3/EuchreStratMaster" target="_blank" class="btn btn-outline">GitHub</a>
+          </div>
+        </div>
+        <p>
+          A browser-based Euchre game with a built-in AI opponent and a post-hand move grader that
+          evaluates every bid and card play against optimal strategy. Built with Python (FastAPI) on
+          the backend and vanilla HTML/CSS/JS on the frontend, deployed on Railway.
+        </p>
+        <ul>
+          <li>Full Euchre rules engine including left bower, going alone, and stick-the-dealer</li>
+          <li>AI opponent using hand-strength scoring, trump void detection, and positional heuristics</li>
+          <li>Counterfactual simulation: replays each decision with the AI's choice to show what would have happened</li>
+          <li>Contextual narrative grade report generated after every hand</li>
+        </ul>
+        <div class="project-tags">
+          <span>Python</span><span>FastAPI</span><span>JavaScript</span><span>Railway</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Iterative Balancing for Entropy Maximization</h3>
+          <div class="project-links">
+            <a href="https://github.com/BUILTNYU/Iterative-Balancing-for-Entropy-Maximization" target="_blank" class="btn btn-outline">GitHub</a>
+          </div>
+        </div>
+        <p>
+          A research implementation developed as part of doctoral work at NYU, referenced in Davis et al. (2023).
+          Solves doubly constrained gravity model problems — a core challenge in transportation demand modeling —
+          by iteratively adjusting a matrix's rows and columns to satisfy both marginal constraints while
+          maximizing entropy.
+        </p>
+        <ul>
+          <li>Implements the iterative balancing (Fratar-inspired) algorithm from first principles</li>
+          <li>Applied to estimating urban freight trip distributions and spatial interaction patterns</li>
+          <li>Supports GHG emissions modeling and battery electric truck (BET) viability analysis for NYC</li>
+        </ul>
+        <div class="project-tags">
+          <span>Python</span><span>Jupyter</span><span>Transportation Modeling</span><span>Optimization</span>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      <a href="mailto:Haggai3@hagdav.com">Haggai3@hagdav.com</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/haggai-davis-iii-phd-15a452110/" target="_blank">LinkedIn</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/HaggaiDavis3" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
