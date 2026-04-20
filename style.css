@@ -108,6 +108,14 @@ header h1 {
   color: #1a4f8a;
 }
 
+.school-logo {
+  max-height: 80px;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 8px 0;
+}
+
 .award-img {
   width: 100%;
   max-width: 480px;
