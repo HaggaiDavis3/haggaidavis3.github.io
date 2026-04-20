@@ -108,6 +108,20 @@ header h1 {
   color: #1a4f8a;
 }
 
+#headshot-wrapper {
+  text-align: center;
+  margin: 32px auto 8px;
+}
+
+#headshot {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e2c97e;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
 .school-logo {
   max-height: 80px;
   max-width: 100%;
