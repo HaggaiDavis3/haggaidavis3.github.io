@@ -108,6 +108,14 @@ header h1 {
   color: #1a4f8a;
 }
 
+.award-img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 6px;
+  margin-top: 10px;
+  display: block;
+}
+
 .coming-soon {
   color: #94a3b8;
   font-style: italic;
