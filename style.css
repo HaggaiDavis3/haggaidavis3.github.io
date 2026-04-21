@@ -23,7 +23,7 @@ header {
 }
 
 .header-inner {
-  max-width: 760px;
+  max-width: 912px;
   margin: 0 auto;
 }
 
@@ -147,7 +147,7 @@ header h1 {
 
 /* ===== Main ===== */
 main {
-  max-width: 760px;
+  max-width: 912px;
   margin: 0 auto;
   padding: 40px 24px 60px;
 }
