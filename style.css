@@ -321,14 +321,23 @@ section h2 {
   background: #f8fafc;
 }
 
+.reading-table td:first-child,
+.reading-table td:nth-child(2) {
+  white-space: nowrap;
+  width: 1%;
+}
+
 .reading-table td:first-child {
   font-weight: bold;
   color: #1a1a2e;
-  white-space: nowrap;
 }
 
 .reading-table td:first-child a {
   color: #1a4f8a;
+}
+
+.reading-table td:nth-child(3) {
+  width: auto;
 }
 
 /* ===== Footer ===== */
