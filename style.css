@@ -287,6 +287,50 @@ section h2 {
   height: 100%;
 }
 
+/* ===== Reading/Listening tables ===== */
+.reading-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.reading-table th {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.reading-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #374151;
+  vertical-align: top;
+}
+
+.reading-table tr:last-child td {
+  border-bottom: none;
+}
+
+.reading-table tr:hover td {
+  background: #f8fafc;
+}
+
+.reading-table td:first-child {
+  font-weight: bold;
+  color: #1a1a2e;
+  white-space: nowrap;
+}
+
+.reading-table td:first-child a {
+  color: #1a4f8a;
+}
+
 /* ===== Footer ===== */
 footer {
   text-align: center;
